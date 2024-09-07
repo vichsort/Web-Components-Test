@@ -6,3 +6,6 @@ window.customElements.define('botao-vermelho', BotaoVermelho);
 
 import { DitaVersao } from "../components/ditaversao.js";
 window.customElements.define('dita-versao', DitaVersao);
+
+import { gridLayout } from "../components/gridlayout.js";
+window.customElements.define('grid-layout', gridLayout);

@@ -1,13 +1,8 @@
-import { html, LitElement, css } from "lit";
+import { html, LitElement} from "lit";
+import { styles } from "./component-styles/_botaoverde";
 
 export class BotaoVerde extends LitElement {
-    static styles = css`
-    button {
-        background-color: green;
-        border: none;
-        padding: 5px;
-    }
-    `;
+    static styles = [styles];
 
     render() {
         return html`
