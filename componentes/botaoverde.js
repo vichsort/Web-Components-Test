@@ -1,7 +1,7 @@
 import { html, LitElement} from "lit";
 import { styles } from "./component-styles/_botaoverde";
 
-export class BotaoVerde extends LitElement {
+export class botaoVerde extends LitElement {
     static styles = [styles];
 
     render() {

@@ -1,7 +1,7 @@
 import { LitElement, html} from "lit"; 
 import { styles } from "./component-styles/_ditaversao";
 
-export class DitaVersao extends LitElement {
+export class ditaVersao extends LitElement {
     static properties = {
         versao: {},
         nome: {}
