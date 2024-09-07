@@ -1,4 +1,5 @@
-import { LitElement, html, css } from "lit"; 
+import { LitElement, html} from "lit"; 
+import { styles } from "./component-styles/_ditaversao.js";
 
 export class DitaVersao extends LitElement {
     static properties = {
@@ -6,11 +7,7 @@ export class DitaVersao extends LitElement {
         nome: {}
     };
 
-    static styles = css`
-    h1, h2 {
-        color: white;
-    }
-    `
+    static styles = [styles]
 
     constructor() {
         super()
