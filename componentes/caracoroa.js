@@ -1,5 +1,5 @@
 import { html, LitElement } from 'lit';
-import { styles } from './component-styles/_caracoroa.js'
+import { styles } from './component-styles/_caracoroa.js';
 
 export class caraCoroa extends LitElement {
     static styles = [styles];
@@ -13,7 +13,7 @@ export class caraCoroa extends LitElement {
         this.resultado = '';
     }
 
-    flipCoin() {
+    girarMoeda() {
         if (Math.random() < 0.5) {
             this.resultado = 'Cara'
         } else {
@@ -23,8 +23,8 @@ export class caraCoroa extends LitElement {
 
     render() {
         return html`
-        <button>Gire a moeda!</button>
+        <button @onclick=${this.girarMoeda}>Gire a moeda!</button>
         <p>O resultado é: ${this.resultado}</p>
         `
     }
-}
+} /* problema sério com reactive properties! */
