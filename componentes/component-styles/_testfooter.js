@@ -1,9 +1,38 @@
 import { css } from "lit";
 
 export const styles = css`
-    .container {
+    footer {
         background-color: black;
-        padding: 5em auto;
-        width: 100%;
+        width: 100dw;
+        padding: 2em;
+    }
+
+    .container {
+        display: flex;
+        gap: 66.6%;
+    }
+
+    .logo {
+        background-color: green;
+        display: block;
+        padding: 1em;
+    }
+
+    .abas {
+        display: flex;
+        gap: 40px;
+    }
+
+    .coluna {
+        flex: 50%;
+    }
+
+    a{
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    a:hover {
+        color: blue;
     }
 `

@@ -13,3 +13,5 @@ export { novoFormulario } from './formulario.js';
 export { questNome } from './questnome.js';
 
 export { testFooter } from './testfooter.js';
+
+export { testNavbar } from './testnavbar.js';

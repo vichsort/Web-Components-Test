@@ -13,6 +13,9 @@ window.customElements.define('dita-versao', ditaVersao);
 import { testFooter } from "../componentes/testfooter.js";
 window.customElements.define('test-footer', testFooter);
 
+import { testNavbar } from "../componentes/testnavbar.js";
+window.customElements.define('test-navbar', testNavbar);
+
 
 /* layout */
 import { gridLayout } from "../componentes/gridlayout.js";

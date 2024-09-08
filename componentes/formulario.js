@@ -39,7 +39,7 @@ export class novoFormulario extends LitElement {
                     <legend>O cadastro ocorre aqui</legend>
                     <div class="container">
                         <label for="nome">
-                            <input @input=${this.sniffNome} id="nome" type="text" required placeholder="aqui vai seu nome"/>
+                            <input @input=${this.sniffNome} id="nome" type="text" required placeholder="Aqui vai seu nome"/>
                         </label>
 
                         <label for="data">
@@ -47,7 +47,7 @@ export class novoFormulario extends LitElement {
                         </label>
 
                         <label for="cpf">
-                            <input @input=${this.sniffCpf} id="cpf" type="password" required/>
+                            <input @input=${this.sniffCpf} id="cpf" type="password" required placeholder="Aqui vai seu cpf"/>
                         </label>
                     </div>
                 </fieldset>

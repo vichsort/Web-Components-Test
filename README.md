@@ -26,13 +26,11 @@ Os elementos já existentes (até o momento) são:
 - Formulário que requere três informações (nome, data de nascimento e cpf)
 - Elemento interativo que reescreve o nome inserido em um input
 - Layout dinâmico de quatro seções
-- Footer (em desenvolvimento)
+- Footer
+- Navbar
 
 ## Futuros elementos
 Os elementos que serão feitos futuramente são:
-- Navbar
-- Header
-- Banner intantâneo
 - Relógio que alterna (entre digital e analógico)
 - Um detector de inputs (teclado e mouse)
 - Detector de posição de mouse
